@@ -1,0 +1,50 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+
+}
+
+.hero{
+  height: 100vh;
+  background-image: url('bmidraw.jpg');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #fff;
+}
+.hero h1{
+  font-size: 53px;
+  color: rgb(45, 122, 122);
+}
+.hero h2{
+  font-size: 18px;
+  margin: 20px 0px;
+  color: rgb(45, 122, 122);
+}
+.hero .btn{
+  display: flex;
+  padding: 12px 20px;
+  background-color: #545454;
+  color: #fff;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+.hero .btn{
+  background-color: #fff;
+  color: aqua;
+}
+.hero .btn:hover{
+  background-color: rgb(45, 122, 122);
+  color: white;
+
+}
