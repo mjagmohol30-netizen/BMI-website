@@ -125,7 +125,7 @@ body {
     border-radius: 12px;
     text-align: center;
     box-shadow: 2px 2px 20px 5px rgba(0, 0, 0, 0.5);
-
+transition: 0.5s ease-in;
 }
 .result #result {
     display: inline-block;
@@ -522,27 +522,64 @@ button.calculate:hover {
 /* ABOUT US & SERVICES */
 .aboutUsContainer,
 .ServiceContainer {
-    width: 100%;
-    max-width: 600px;
-
-    margin: 150px auto; /* centers it like BMI box spacing */
+    width: 90%;
+    max-width: 900px;
+    margin: 120px auto 30px auto;
     padding: 30px;
 
-    background: #fafafa;  /* same as BMI box */
+    background: #fafafa;
     border-radius: 12px;
 
     box-shadow: 2px 2px 20px 5px rgba(0, 0, 0, 0.5);
 
-    text-align: left;
+    transition: 0.3s;
 }
-
-
-
- h1,
- h2 {
+.aboutUsContainer h1,
+.ServiceContainer h1 {
     text-align: center;
+    color: #4f7df9;
+    margin-bottom: 20px;
 }
 
+.aboutUsContainer h2,
+.ServiceContainer h2 {
+    color: #1f2944;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.aboutUsContainer h3,
+.ServiceContainer h3 {
+    color: #4f7df9;
+    margin-top: 15px;
+    margin-bottom: 8px;
+}
+
+.aboutUsContainer p,
+.ServiceContainer p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.aboutUsContainer ul,
+.ServiceContainer ul {
+    margin-left: 25px;
+    line-height: 1.8;
+}
+
+.aboutUsContainer li,
+.ServiceContainer li {
+    margin-bottom: 8px;
+}
+
+/* Hover effect like BMI box */
+.aboutUsContainer:hover,
+.ServiceContainer:hover {
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
 
 
 /*RESPONSIVE DESIGN*/
