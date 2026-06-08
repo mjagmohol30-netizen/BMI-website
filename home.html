@@ -74,14 +74,25 @@
                     <div class="containerHW">
 
                         <div class="inputH">
-                            <label for="height">Height (cm)</label>
-                            <input type="number" id="height" required>
-                        </div>
+    <label for="height">Height</label>
+    <input type="number" id="height" required>
 
-                        <div class="inputW">
-                            <label for="weight">Weight (kg)</label>
-                            <input type="number" id="weight" required>
-                        </div>
+    <select id="heightUnit">
+        <option value="cm">cm</option>
+        <option value="m">m</option>
+        <option value="in">inches</option>
+    </select>
+</div>
+
+<div class="inputW">
+    <label for="weight">Weight</label>
+    <input type="number" id="weight" required>
+
+    <select id="weightUnit">
+        <option value="kg">kg</option>
+        <option value="lbs">lbs</option>
+    </select>
+</div>
 
                     </div>
 
